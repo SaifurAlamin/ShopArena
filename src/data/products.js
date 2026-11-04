@@ -1,0 +1,10 @@
+export const products = [
+  { id: 1, name: "Wireless Headphones", category: "Electronics", brand: "Sony", price: 2490, oldPrice: 3200, rating: 4.8, stock: 24, featured: true, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600" },
+  { id: 2, name: "Smart Watch Series", category: "Electronics", brand: "Samsung", price: 3990, oldPrice: 4990, rating: 4.6, stock: 18, featured: true, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600" },
+  { id: 3, name: "Classic Sneakers", category: "Fashion", brand: "Nike", price: 2850, oldPrice: 3500, rating: 4.7, stock: 32, featured: true, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" },
+  { id: 4, name: "Minimal Backpack", category: "Fashion", brand: "Urban", price: 1590, oldPrice: 0, rating: 4.4, stock: 12, featured: false, image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600" },
+  { id: 5, name: "Modern Desk Lamp", category: "Home & Living", brand: "IKEA", price: 1190, oldPrice: 1490, rating: 4.5, stock: 40, featured: true, image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600" },
+  { id: 6, name: "Skincare Essentials", category: "Beauty", brand: "Glow", price: 990, oldPrice: 1250, rating: 4.3, stock: 27, featured: false, image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600" },
+  { id: 7, name: "Travel Coffee Mug", category: "Home & Living", brand: "Daily", price: 650, oldPrice: 800, rating: 4.2, stock: 50, featured: false, image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600" },
+  { id: 8, name: "Fitness Training Ball", category: "Sports", brand: "Active", price: 850, oldPrice: 0, rating: 4.1, stock: 15, featured: true, image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600" },
+];

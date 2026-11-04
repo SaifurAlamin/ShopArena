@@ -1,0 +1,2 @@
+Add this line to src/main.jsx after index.css import:
+import "./assets/styles/admin.css";

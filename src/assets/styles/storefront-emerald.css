@@ -1,0 +1,38 @@
+/* Storefront-only theme: Modern Emerald + Warm Off-white */
+.storefront {
+  --store-primary: #087f5b;
+  --store-primary-hover: #066b4b;
+  --store-primary-dark: #12352b;
+  --store-primary-soft: #ddf3e8;
+  --store-page-bg: #faf8f2;
+  --store-highlight: #f4a340;
+  color: #252b29;
+  background: var(--store-page-bg);
+}
+
+.storefront .top-strip { background: var(--store-primary-dark); color: #e7f4ed; }
+.storefront .brand { color: var(--store-primary-dark); }
+.storefront .brand span { color: var(--store-primary); }
+.storefront .header-action:hover,
+.storefront .main-nav a.active,
+.storefront .main-nav a:hover,
+.storefront .section-heading > a { color: var(--store-primary); }
+.storefront .counter { background: var(--store-primary); }
+.storefront .btn-primary { background: var(--store-primary); border-color: var(--store-primary); }
+.storefront .btn-primary:hover,
+.storefront .btn-primary:focus { background: var(--store-primary-hover); border-color: var(--store-primary-hover); }
+.storefront .hero-section { background: linear-gradient(110deg, #edf7f0 0%, #faf8f2 55%, #e2f2e8 100%); }
+.storefront .hero-kicker,
+.storefront .section-kicker,
+.storefront .hero-section h1 span { color: var(--store-primary); }
+.storefront .hero-section h1 { color: var(--store-primary-dark); }
+.storefront .category-card:hover { color: var(--store-primary); box-shadow: 0 10px 24px #12352b12; }
+.storefront .discount-tag { background: var(--store-primary-soft); color: var(--store-primary); }
+.storefront .product-name:hover { color: var(--store-primary); }
+.storefront .promo-banner { background: linear-gradient(100deg, #12352b, #087f5b); }
+.storefront .promo-banner span { color: #c7ead7; }
+.storefront .site-footer { background: #12352b; }
+.storefront .stat-icon { background: #e4f4eb; color: var(--store-primary); }
+
+/* Keep the customer-facing canvas warm without changing the admin panel. */
+.storefront main { background: var(--store-page-bg); }
