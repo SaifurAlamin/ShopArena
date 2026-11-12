@@ -2,6 +2,12 @@
 
 A modern, responsive, and feature-rich E-Commerce frontend application designed for seamless online shopping, product exploration, cart management, and interactive user flows.
 
+### 🌐 Live Website
+[https://shop-arena.netlify.app/](https://shop-arena.netlify.app/)
+
+### 🔐 Admin Panel
+[https://shop-arena.netlify.app/admin](https://shop-arena.netlify.app/admin)
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.x-764ABC?logo=redux)
